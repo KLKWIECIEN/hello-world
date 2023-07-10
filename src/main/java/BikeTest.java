@@ -1,5 +1,6 @@
 public class BikeTest {
     public static void main(String[] args) {
-        string name = new Bike("rower""2""true""damka""1.249");
-        new Bike("rower", 2, true, damka, 1.249);
-}
+        Bike name = new Bike("damka", 2, false, 'cos', 2.5,);
+        Bike c = new Bike("damka", 3, false, 'tam', 2.2,);)
+        System.out.println(c);
+    }

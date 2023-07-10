@@ -5,9 +5,15 @@ public class Bike {
     private String model;
     private float cost;
 
-    public String getName() {
-        return name;
+    public Bike(String name, int wheel, boolean isRose, String model, float cost) {
+        this.name = name;
+        this.wheel = wheel;
+        this.isRose = isRose;
+        this.model = model;
+        this.cost = cost;
     }
+
+    public String getName() { return name; }
 
     public void setName(String name) {
         this.name = name;
@@ -43,5 +49,15 @@ public class Bike {
 
     public void setCost(float cost) {
         this.cost = cost;
+    }
+
+    @Override
+    public String toString() {
+        return "Bike{" +
+                "name='" + name + '\'' +
+                ", wheel=" + wheel +
+                ", isRose=" + isRose +
+                ", model=" + model +
+                ", cost=" + cost +
     }
 }
