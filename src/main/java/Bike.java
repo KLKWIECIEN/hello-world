@@ -58,6 +58,6 @@ public class Bike {
                 ", wheel=" + wheel +
                 ", isRose=" + isRose +
                 ", model=" + model +
-                ", cost=" + cost +
+                ", cost=" + cost;
     }
 }
